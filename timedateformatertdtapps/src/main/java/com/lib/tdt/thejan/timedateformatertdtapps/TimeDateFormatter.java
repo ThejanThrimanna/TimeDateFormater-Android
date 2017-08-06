@@ -10,6 +10,18 @@ import java.util.Date;
  */
 public class TimeDateFormatter {
 
+    public static String FORMAT1 = "yyyy.MM.dd G 'at' HH:mm:ss z";
+    public static String FORMAT2 = "EEE, MMM d, ''yy";
+    public static String FORMAT3 = "h:mm a";
+    public static String FORMAT4 = "hh 'o''clock' a, zzzz";
+    public static String FORMAT5 = "K:mm a, z";
+    public static String FORMAT6 = "yyyyy.MMMMM.dd GGG hh:mm aaa";
+    public static String FORMAT7 = "EEE, d MMM yyyy HH:mm:ss Z";
+    public static String FORMAT8 = "yyMMddHHmmssZ8";
+    public static String FORMAT9 = "yyyy-MM-dd'T'HH:mm:ss.SSSZ";
+    public static String FORMAT10 = "yyyy-MM-dd'T'HH:mm:ss.SSSXXX";
+    public static String FORMAT11 = "YYYY-'W'ww-u";
+
     /**
      * This methoad use to change the string addedTime to millisecond addedTime.
      *
